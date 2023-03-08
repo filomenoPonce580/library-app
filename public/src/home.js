@@ -80,8 +80,6 @@ function getMostCommonGenres(books) {
   return genreArr.splice(0,5)
 }
 
-// console.log(getMostCommonGenres(books))
-
 
 
 
@@ -106,7 +104,7 @@ function getMostPopularBooks(books) {
   return reformattedBooks.sort((bookA, bookB) => {return bookB.count - bookA.count}).splice(0,5)
 }
 
-console.log(getMostPopularBooks(books))
+
 
 
 /*------------------------------------------------------------------------------------------------*/
