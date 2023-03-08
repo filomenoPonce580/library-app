@@ -1,15 +1,11 @@
 /*---------------------------------------------------------------------------------------------------*/
 
 //set up helper function to get counts.
-function arrayTotal(arrayToBeCounted){
-  return arrayToBeCounted.length
-}
+const arrayTotal = arrayToBeCounted => arrayToBeCounted.length;
 
 //input: array of book objects
 //output: number, represents the # of book objects in the array
-function getTotalBooksCount(books) {
-  return arrayTotal(books)
-}
+const getTotalBooksCount = books => arrayTotal(books);
 
 
 /*------------------------------------------------------------------------------------------------*/
@@ -17,9 +13,7 @@ function getTotalBooksCount(books) {
 
 //input: array of account objects
 //output: # of account objects in the array
-function getTotalAccountsCount(accounts) {
-  return arrayTotal(accounts)
-}
+const getTotalAccountsCount = accounts => arrayTotal(accounts);
 
 
 /*------------------------------------------------------------------------------------------------*/
@@ -80,6 +74,8 @@ function getMostCommonGenres(books) {
   return genreArr.splice(0,5)
 }
 
+// console.log(getMostCommonGenres(books))
+
 
 
 
@@ -103,8 +99,6 @@ function getMostPopularBooks(books) {
   //sort, splice, and return
   return reformattedBooks.sort((bookA, bookB) => {return bookB.count - bookA.count}).splice(0,5)
 }
-
-
 
 
 /*------------------------------------------------------------------------------------------------*/
