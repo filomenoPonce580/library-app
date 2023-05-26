@@ -1,3 +1,18 @@
-# completed-module-6-project
+# Local Library
+The Local Library application serves as a dashboard for a neighborhood library. It provides information about the availability of books, tracks the books that are currently borrowed, and presents general statistics about the library program.
 
-Code for module 6 project
+# Project Description
+The project's development focused on implementing the necessary algorithms to manage the library's data and provide accurate and up-to-date information to users. While the logistics and design aspects were handled by other team members, my role was to build the underlying algorithms that power the dashboard.
+
+# Getting Started
+To get started with this project, follow these steps:
+
+Clone this repository to your local machine using git clone https://github.com/cannonspears/library-app.git.
+Navigate to the project directory using cd local-library.
+Install the required dependencies using npm install.
+Start the development server using npm start.
+Running Tests
+This project includes a set of tests that can be run using the command line. To run the tests, use the command npm test.
+
+# Project Takeaways
+By successfully completing this project, I have demonstrated my ability to work with large datasets, develop algorithms based on those datasets, and utilize various JavaScript features and array methods to solve real-world problems.
