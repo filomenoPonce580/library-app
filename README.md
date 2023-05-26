@@ -7,7 +7,7 @@ The project's development focused on implementing the necessary algorithms to ma
 # Getting Started
 To get started with this project, follow these steps:
 
-Clone this repository to your local machine using git clone https://github.com/cannonspears/library-app.git.
+Clone this repository to your local machine using git clone https://github.com/filomenoponce580/library-app.git.
 Navigate to the project directory using cd local-library.
 Install the required dependencies using npm install.
 Start the development server using npm start.
